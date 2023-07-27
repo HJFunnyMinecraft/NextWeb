@@ -27,7 +27,7 @@ export default function HJNavbar() {
                 <HJLogo />
                 <Spacer x={1}></Spacer>
                 <Text b color="inherit" hideIn="xs">
-                    hjfunny
+                    hjfunnyMC
                 </Text>
             </Navbar.Brand>
             <Navbar.Content hideIn="xs">
@@ -48,13 +48,13 @@ export default function HJNavbar() {
                                 </Button>
                             </a>
                         </Navbar.Item>
-                        <Navbar.Item>
+                        { /* <Navbar.Item>
                             <a href="/wp-admin/profile.php" className={styles.hideLink}>
                                 <Button auto color="primary">
                                     账户管理
                                 </Button>
                             </a>
-                        </Navbar.Item></>
+                        </Navbar.Item> */ }</>
                 ) : (
                     <>
                         <Navbar.Item>

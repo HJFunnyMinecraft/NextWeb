@@ -2,7 +2,8 @@ name: Deploy site to Static files
 
 on:
   push:
-    branches: ["main"]
+#   branches: ["main"]
+  workflow_dispatch:
 
 permissions:
   contents: read

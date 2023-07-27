@@ -9,11 +9,11 @@ export default function Home() {
     return (
         <main>
             <Head>
-                <title>hjfunny | 官方网站</title>
+                <title>hjfunnyMC | 官方网站</title>
             </Head>
 
-            <Banner />
             <Navbar />
+            <Banner />
 
             <div className={styles.joinWrapper}>
                 <Text h5 size={35}>

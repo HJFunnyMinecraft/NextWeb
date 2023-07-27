@@ -15,7 +15,7 @@ export default function Banner() {
                             m: 0
                         }}
                     >
-                        hjfunny
+                        hjfunnyMC
                     </Text>
                 </Row>
                 {/* Description */}
@@ -33,10 +33,10 @@ export default function Banner() {
                     <a href="/join" className={styles.hideLink}>
                         <Button shadow color="success" size="lg" auto>立即加入</Button>
                     </a>
-                    <Spacer x={1}></Spacer>
+                    { /* <Spacer x={1}></Spacer>
                     <a href="/wp-admin/profile.php" className={styles.hideLink}>
                         <Button ghost size="lg">账户管理</Button>
-                    </a>
+                    </a> */ }  
                 </Row>
             </Container>
         </div >

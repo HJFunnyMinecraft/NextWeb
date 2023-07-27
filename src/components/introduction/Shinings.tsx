@@ -49,7 +49,7 @@ export default function Shinings() {
                     </ShiningsCard>
                 </Col>
                 <Col>
-                    <ShiningsCard title="多元" content="服务器各式各样, 甚至包含mod服! 让你一次玩个够~">
+                    <ShiningsCard title="多元" content="服务器各式各样, 生存、建筑、科技、小游戏……">
                         <AiOutlineAppstoreAdd />
                     </ShiningsCard>
                 </Col>
