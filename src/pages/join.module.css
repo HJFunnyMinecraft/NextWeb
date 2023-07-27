@@ -1,0 +1,12 @@
+.container {
+    width: 100%;
+    margin-top: 1.6rem;
+}
+
+.wrapper {
+    width: 70%;
+}
+
+.hideLink {
+    text-decoration: none;
+}
