@@ -1,0 +1,11 @@
+.banner {
+    background-image: url(https://mc.hjfunny.site/static/img/bg/3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.hideLink {
+    text-decoration: none;
+}

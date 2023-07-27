@@ -1,0 +1,40 @@
+.joinWrapper {
+    margin-top: 1.6rem;
+    text-align: center;
+    width: 100%;
+    text-transform: none;
+    background-image: linear-gradient(45deg, var(--nextui-colors-blue600) 0%, var(--nextui-colors-pink600) 25%, var(--nextui-colors-yellow600) 50%, var(--nextui-colors-green500)75%, var(--nextui-colors-blue600));
+    background-size: 300% 300%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: ColorGradient 15s infinite both linear;
+}
+
+@keyframes ColorGradient {
+    0% {
+        background-position: 300% 300%;
+    }
+
+    33% {
+        background-position: 0 300%;
+    }
+
+    66% {
+        background-position: 300% 0;
+    }
+
+    100% {
+        background-position: 300% 300%;
+    }
+}
+
+.hideLink {
+    text-decoration: none;
+}
+
+.footer {
+    padding-bottom: 0;
+    width: 100%;
+    margin: 1.6rem;
+    text-align: center;
+}
