@@ -2,6 +2,7 @@ import { Button, Navbar, Spacer, Text } from "@nextui-org/react"
 import HJLogo from "./HJLogo"
 import styles from './Navbar.module.css'
 import { useEffect, useState } from "react"
+import Link from "next/link";
 
 export default function HJNavbar() {
     const [isLogin, setLogin] = useState(false);
@@ -24,11 +25,15 @@ export default function HJNavbar() {
     return (
         <Navbar isBordered variant="static">
             <Navbar.Brand>
-                <HJLogo />
+                <Link href='/' className={styles.hideLink}>
+                    <HJLogo />
+                </Link>
                 <Spacer x={1}></Spacer>
-                <Text b color="inherit" hideIn="xs">
-                    hjfunnyMC
-                </Text>
+                <Link href='/' className={styles.hideLink}>
+                    <Text b color="black" hideIn="xs">
+                        hjfunnyMC
+                    </Text>
+                </Link>
             </Navbar.Brand>
             <Navbar.Content hideIn="xs">
                 <Navbar.Link href="/rules">服务器规定</Navbar.Link>
