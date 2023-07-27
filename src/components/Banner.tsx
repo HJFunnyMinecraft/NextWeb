@@ -30,11 +30,11 @@ export default function Banner() {
                 <Spacer y={1}></Spacer>
                 {/* Action */}
                 <Row justify="center" align="flex-start">
-                    <a href="/wp-admin/profile.php" className={styles.hideLink}>
+                    <a href="/join" className={styles.hideLink}>
                         <Button shadow color="success" size="lg" auto>立即加入</Button>
                     </a>
                     <Spacer x={1}></Spacer>
-                    <a href="/join" className={styles.hideLink}>
+                    <a href="/wp-admin/profile.php" className={styles.hideLink}>
                         <Button ghost size="lg">账户管理</Button>
                     </a>
                 </Row>
