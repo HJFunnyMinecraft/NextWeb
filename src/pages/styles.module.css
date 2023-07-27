@@ -38,3 +38,8 @@
     margin: 1.6rem;
     text-align: center;
 }
+
+@font-face {
+    font-family: 'Mojangles';
+    src: url("/Mojangles.ttf");
+}

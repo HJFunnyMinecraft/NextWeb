@@ -9,3 +9,16 @@
 .hideLink {
     text-decoration: none;
 }
+
+.bannerContent {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--nextui--navbarBlurBackgroundColor);
+    backdrop-filter: saturate(180%) blur(var(--nextui--navbarBlur));
+    width: auto;
+    padding: 3% 8% 3% 8%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
