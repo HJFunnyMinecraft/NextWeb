@@ -4,7 +4,7 @@ import styles from './Banner.module.css'
 export default function Banner() {
     return (
         <div className={styles.banner} >
-            <Container css={{ paddingTop: "40vh" }}>
+            <Container className={styles.bannerContent}>
                 {/* Title */}
                 <Row justify="center" align="center">
                     <Text
@@ -31,7 +31,7 @@ export default function Banner() {
                 {/* Action */}
                 <Row justify="center" align="flex-start">
                     <a href="/join" className={styles.hideLink}>
-                        <Button shadow color="success" size="lg" auto>立即加入</Button>
+                        <Button shadow color="primary" size="lg" auto>立即加入</Button>
                     </a>
                     { /* <Spacer x={1}></Spacer>
                     <a href="/wp-admin/profile.php" className={styles.hideLink}>

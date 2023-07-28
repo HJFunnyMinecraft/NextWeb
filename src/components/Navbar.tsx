@@ -20,7 +20,7 @@ export default function HJNavbar() {
                 });
         }
         fetchData()
-    })
+    })//backdrop-filter: "blur(10px)"; 
 
     return (
         <Navbar isBordered variant="static">
@@ -63,19 +63,20 @@ export default function HJNavbar() {
                 ) : (
                     <>
                         <Navbar.Item>
-                            <a href="/register" className={styles.hideLink}>
-                                <Button auto ghost color="success">
-                                    注册
+                            <a href="/login" className={styles.hideLink}>
+                                <Button auto ghost color="primary">
+                                    登录
                                 </Button>
                             </a>
                         </Navbar.Item>
                         <Navbar.Item>
-                            <a href="/login" className={styles.hideLink}>
-                                <Button auto shadow color="warning">
-                                    登陆
+                            <a href="/register" className={styles.hideLink}>
+                                <Button auto shadow color="success">
+                                    注册
                                 </Button>
                             </a>
                         </Navbar.Item>
+                        
                     </>
                 )
                 }
