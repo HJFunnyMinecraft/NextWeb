@@ -1,4 +1,5 @@
-import { Button, Card, Container, Row, Spacer, Text } from "@nextui-org/react";
+import React from 'react';
+import { Button, Container, Row, Spacer, Text } from "@nextui-org/react";
 import styles from './Banner.module.css'
 
 export default function Banner() {

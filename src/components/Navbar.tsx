@@ -1,3 +1,4 @@
+import React from 'react';
 import { Button, Navbar, Spacer, Text } from "@nextui-org/react"
 import HJLogo from "./HJLogo"
 import styles from './Navbar.module.css'

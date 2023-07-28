@@ -1,3 +1,4 @@
+import React from 'react';
 import { Card, Col, Container, Row, Text } from "@nextui-org/react";
 import styles from './Shinings.module.css'
 
