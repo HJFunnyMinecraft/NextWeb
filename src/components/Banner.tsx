@@ -1,4 +1,5 @@
-import { Button, Card, Container, Row, Spacer, Text } from "@nextui-org/react";
+import React from 'react';
+import { Button, Container, Link, Row, Spacer, Text } from "@nextui-org/react";
 import styles from './Banner.module.css'
 
 export default function Banner() {
@@ -30,9 +31,9 @@ export default function Banner() {
                 <Spacer y={1}></Spacer>
                 {/* Action */}
                 <Row justify="center" align="flex-start">
-                    <a href="/join" className={styles.hideLink}>
+                    <Link href="/join" className={styles.hideLink}>
                         <Button shadow color="primary" size="lg" auto>立即加入</Button>
-                    </a>
+                    </Link>
                     { /* <Spacer x={1}></Spacer>
                     <a href="/wp-admin/profile.php" className={styles.hideLink}>
                         <Button ghost size="lg">账户管理</Button>

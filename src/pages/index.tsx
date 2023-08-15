@@ -1,3 +1,4 @@
+import React from 'react';
 import styles from './styles.module.css'
 import Head from "next/head";
 import Navbar from "@/components/Navbar";
