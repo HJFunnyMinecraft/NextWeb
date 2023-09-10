@@ -37,7 +37,7 @@ export default function Servers() {
         <Container gap={0} className={styles.wrapper}>
             <Row gap={1}>
                 <Col>
-                    <ServerCard title="hjmc" content="hjfunny群组服的“前世”就是hjmc, 它有完善的生电装置和优美的建筑物" img="https://mc.hjfunny.site/static/img/bg/7.png" />
+                    <ServerCard title="hjmc" content="hjfunny群组服的“前世”就是hjmc, 它有完善的生电装置和优美的建筑物" img="http://hjmc-static.hecodemc.eu.org/imgs/hjmc-night.png" />
                 </Col>
             </Row>
         </Container>
