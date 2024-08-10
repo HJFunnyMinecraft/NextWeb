@@ -37,7 +37,7 @@ export default function Servers() {
         <Container gap={0} className={styles.wrapper}>
             <Row gap={1}>
                 <Col>
-                    <ServerCard title="hjmc" content="hjfunny群组服的“前世”就是hjmc, 它有完善的生电装置和优美的建筑物" img="http://hjmc-static.hecodemc.eu.org/imgs/hjmc-night.png" />
+                    <ServerCard title="hjMC 生电服务器" content="hjfunnyMC 群组服务器的核心。它是 hjfunnyMC 群组服务器中活跃玩家最多、开服历史最久的服务器，拥有相对完善的生电设施。" img="http://hjmc-static.hecodemc.eu.org/imgs/hjmc3-railsys.png" />
                 </Col>
             </Row>
         </Container>
