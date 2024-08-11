@@ -23,7 +23,7 @@ function ShiningsCard(props: {
   children: any;
 }) {
   return (
-    <Card isHoverable variant="bordered">
+    <Card isHoverable variant="bordered" css={{ mb: 3, mr: 3 }}>
       <Card.Header>
         <IconWrapper>{props.children}</IconWrapper>
         <Text h3 size={30} b css={{ m: 0 }}>
@@ -41,33 +41,25 @@ function ShiningsCard(props: {
 
 export default function Shinings() {
   return (
-    <Container gap={0} className={styles.wrapper}>
-      <Row gap={1}>
-        <Col>
-          <ShiningsCard
-            title="共生"
-            content="我们支持跨服聊天, 你可以与另一个服务器的玩家畅快交流, 消除服与服之间隔阂"
-          >
-            <BiMessageRoundedCheck />
-          </ShiningsCard>
-        </Col>
-        <Col>
-          <ShiningsCard
-            title="多元"
-            content="服务器各式各样, 生存、建筑、科技、小游戏……"
-          >
-            <AiOutlineAppstoreAdd />
-          </ShiningsCard>
-        </Col>
-        <Col>
-          <ShiningsCard
-            title="开放"
-            content="我们的服务器群组是开放的, 任何服务器都可以与我们联合"
-          >
-            <AiOutlineFullscreen />
-          </ShiningsCard>
-        </Col>
-      </Row>
-    </Container>
+    <div className={styles.wrapper}>
+      <ShiningsCard
+        title="多元"
+        content="服务器各式各样, 生存、建筑、科技、小游戏……"
+      >
+        <AiOutlineAppstoreAdd />
+      </ShiningsCard>
+      <ShiningsCard
+        title="开放"
+        content="我们的服务器群组是开放的, 任何服务器都可以与我们联合"
+      >
+        <AiOutlineFullscreen />
+      </ShiningsCard>
+      <ShiningsCard
+        title="共生"
+        content="我们支持跨服聊天, 你可以与另一个服务器的玩家畅快交流, 消除服与服之间隔阂"
+      >
+        <BiMessageRoundedCheck />
+      </ShiningsCard>
+    </div>
   );
 }

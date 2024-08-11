@@ -8,18 +8,18 @@ function ServerCard(props: { title: string; content: string; img: string }) {
       // className={styles.cardWrapper}
       style={{ marginBottom: 20 }}
     >
-      <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
+      <Card.Header css={{ padding: "10px", position: "absolute", zIndex: 1, top: 5 }}>
         <Col>
           <Text
             size={30}
             weight="bold"
             transform="uppercase"
             color="white"
-            css={{ m: 0 }}
+            css={{ m: 10 }}
           >
             {props.title}
           </Text>
-          <Text h4 color="white" css={{ m: 0 }}>
+          <Text h4 color="white" css={{ m: 10 }}>
             {props.content}
           </Text>
         </Col>
@@ -38,7 +38,7 @@ function ServerCard(props: { title: string; content: string; img: string }) {
 export default function Servers() {
   return (
     <Container gap={0} className={styles.wrapper}>
-      <Row gap={1}>
+      <Row>
         <Col>
           <ServerCard
             title="hjMC 生电服务器"
