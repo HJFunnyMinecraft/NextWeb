@@ -34,7 +34,7 @@ export default function Home() {
 
             {/* Footer */}
             <div className={styles.footer}>
-                Copyright &copy; 2022-2023 hjfunnyMC Team<br/>
+                Copyright &copy; 2022-2024 hjfunnyMC Team<br/>
                 <Text css={{ fontSize: "small" }}>hjfunnyMC 是公益项目，不接受任何资金支持。如有任何人员要求充值/赞助请立即拒绝并尽快联系管理员。</Text>
             </div>
         </main>
