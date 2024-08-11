@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, Col, Container, Row, Text } from "@nextui-org/react";
-import styles from './Serveres.module.css';
+import styles from './Servers.module.css';
 
 function ServerCard(props:{
     title:string,
