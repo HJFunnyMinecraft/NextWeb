@@ -1,19 +1,22 @@
-import React from 'react';
+import React from "react";
 import { Card, Col, Container, Row, Text } from "@nextui-org/react";
-import styles from './Servers.module.css';
+import styles from "./Servers.module.css";
 
-function ServerCard(props:{
-    title:string,
-    content:string,
-    img:string
-}) {
+function ServerCard(props: { title: string; content: string; img: string }) {
     return (
         <Card
             // className={styles.cardWrapper}
+      style={{ marginBottom: 20 }}
         >
             <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
                 <Col>
-                    <Text size={30} weight="bold" transform="uppercase" color="white" css={{ m: 0 }}>
+          <Text
+            size={30}
+            weight="bold"
+            transform="uppercase"
+            color="white"
+            css={{ m: 0 }}
+          >
                         {props.title}
                     </Text>
                     <Text h4 color="white" css={{ m: 0 }}>
@@ -29,7 +32,7 @@ function ServerCard(props:{
                 alt="Card image background"
             />
         </Card>
-    )
+  );
 }
 
 export default function Servers() {
@@ -41,5 +44,5 @@ export default function Servers() {
                 </Col>
             </Row>
         </Container>
-    )
+  );
 }
